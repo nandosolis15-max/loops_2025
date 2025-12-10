@@ -64,3 +64,14 @@ total = 0
 for number in new_numbers:
     total += number
 print("total sum frm 1 to 260 ", total)
+
+colors = ["red", "blue", "green", "yellow", "purple"]
+
+print(len(colors))
+index = 0
+while index < len(colors):
+    if colors[index] == "yellow":
+        break
+    print(colors[index])
+    index += 1
+    
